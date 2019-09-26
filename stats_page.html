@@ -48,17 +48,6 @@ a:hover {
   stroke-width: 1.5px;
 }
 
-.node--leaf {
-  fill: white;
-}
-
-.label,
-.hiddenArcWrapper,
-.barWrapperOuter,
-.popover,
-.node--root {
-  pointer-events: none;
-}		
 	</style>
 	
 </head>
@@ -320,7 +309,7 @@ a:hover {
 		trigger: 'manual',
 		html : true,
 		content: function() { 
-		  return "<p class='nodeTooltip'>" + d.name + "</p>"; }
+		  return "<p class='nodeTooltip'>" + d.product + "</p>"; }
 	  });
 	  $(this).popover('show')
 	}
