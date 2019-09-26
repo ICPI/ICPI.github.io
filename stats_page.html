@@ -30,6 +30,35 @@ a,
 a:hover {
 	color: #333333;
 }
+		
+.nodeTooltip {
+	color: #333333;
+	font-family: 'Oswald', sans-serif;
+	text-anchor: middle;
+	font-size: 12px;
+	text-align: center;
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node:hover {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.node--leaf {
+  fill: white;
+}
+
+.label,
+.hiddenArcWrapper,
+.barWrapperOuter,
+.popover,
+.node--root {
+  pointer-events: none;
+}		
 	</style>
 	
 </head>
