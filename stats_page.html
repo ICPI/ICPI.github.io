@@ -304,6 +304,25 @@ a:hover {
 				drawCanvas(context);
 				stats.end();
 			});
+			
+				//Hide the tooltip when the mouse moves away
+	function removeTooltip () {
+	  $('.popover').each(function() {
+		$(this).remove();
+	  }); 
+	}
+	//Show the tooltip on the hovered over slice
+	function showTooltip (d) {
+	  $(this).popover({
+		placement: 'auto top',
+		container: '#chart',
+		trigger: 'manual',
+		html : true,
+		content: function() { 
+		  return "<p class='nodeTooltip'>" + d.name + "</p>"; }
+	  });
+	  $(this).popover('show')
+	}
 
 		}//drawAll
 	</script>
