@@ -1,0 +1,251 @@
+{
+  "lev1": "all_stats",
+  "children": [{
+    "quarter": "No",
+    "children": [{
+      "cluster": "Diagnosis",
+      "children": [{
+        "product": "HITS",
+        "ID": "1",
+        "size": 5
+      }]
+    }, {
+      "cluster": "Prevention",
+      "children": [{
+        "product": "GBV QA",
+        "ID": "2",
+        "size": 66
+      }]
+    }]
+  }, {
+    "quarter": "Q1",
+    "children": [{
+      "cluster": "Diagnosis",
+      "children": [{
+        "product": "CHIPS",
+        "ID": "3",
+        "size": 754
+      }, {
+        "product": "HEI",
+        "ID": "4",
+        "size": 176
+      }, {
+        "product": "HITS",
+        "ID": "5",
+        "size": 488
+      }, {
+        "product": "Viral Load",
+        "ID": "6",
+        "size": 715
+      }]
+    }, {
+      "cluster": "DIV",
+      "children": [{
+        "product": "PPR",
+        "ID": "7",
+        "size": 248
+      }]
+    }, {
+      "cluster": "HSS",
+      "children": [{
+        "product": "Key Pops",
+        "ID": "8",
+        "size": 80
+      }]
+    }, {
+      "cluster": "Prevention",
+      "children": [{
+        "product": "DREAMS",
+        "ID": "9",
+        "size": 214
+      }, {
+        "product": "GBV QA",
+        "ID": "10",
+        "size": 1
+      }, {
+        "product": "Prevention Trends",
+        "ID": "11",
+        "size": 3
+      }]
+    }, {
+      "cluster": "SIMS",
+      "children": [{
+        "product": "SIMS",
+        "ID": "12",
+        "size": 155
+      }]
+    }, {
+      "cluster": "Treatment",
+      "children": [{
+        "product": "Performance Trends",
+        "ID": "13",
+        "size": 159
+      }, {
+        "product": "PMTCT",
+        "ID": "14",
+        "size": 165
+      }, {
+        "product": "TSD",
+        "ID": "15",
+        "size": 417
+      }]
+    }]
+  }, {
+    "quarter": "Q2",
+    "children": [{
+      "cluster": "Diagnosis",
+      "children": [{
+        "product": "CHIPS",
+        "ID": "16",
+        "size": 292
+      }, {
+        "product": "HEI",
+        "ID": "17",
+        "size": 46
+      }, {
+        "product": "HITS",
+        "ID": "18",
+        "size": 373
+      }, {
+        "product": "Lab",
+        "ID": "19",
+        "size": 108
+      }, {
+        "product": "TB/HIV",
+        "ID": "20",
+        "size": 199
+      }, {
+        "product": "Viral Load",
+        "ID": "21",
+        "size": 401
+      }]
+    }, {
+      "cluster": "DIV",
+      "children": [{
+        "product": "PPR",
+        "ID": "22",
+        "size": 236
+      }]
+    }, {
+      "cluster": "HSS",
+      "children": [{
+        "product": "Key Pops",
+        "ID": "23",
+        "size": 239
+      }]
+    }, {
+      "cluster": "Prevention",
+      "children": [{
+        "product": "DREAMS",
+        "ID": "24",
+        "size": 594
+      }, {
+        "product": "OVC",
+        "ID": "25",
+        "size": 68
+      }, {
+        "product": "Prevention Reference",
+        "ID": "26",
+        "size": 7
+      }, {
+        "product": "Prevention Summary Dashboard",
+        "ID": "27",
+        "size": 34
+      }, {
+        "product": "VMMC",
+        "ID": "28",
+        "size": 136
+      }]
+    }, {
+      "cluster": "SIMS",
+      "children": [{
+        "product": "SIMS",
+        "ID": "29",
+        "size": 6
+      }]
+    }, {
+      "cluster": "Treatment",
+      "children": [{
+        "product": "Performance Trends",
+        "ID": "30",
+        "size": 121
+      }, {
+        "product": "PMTCT",
+        "ID": "31",
+        "size": 435
+      }, {
+        "product": "TSD",
+        "ID": "32",
+        "size": 1062
+      }]
+    }]
+  }, {
+    "quarter": "Q4",
+    "children": [{
+      "cluster": "DAQ",
+      "children": [{
+        "product": "DRT",
+        "ID": "33",
+        "size": 4
+      }]
+    }, {
+      "cluster": "Diagnosis",
+      "children": [{
+        "product": "TB/HIV",
+        "ID": "34",
+        "size": 130
+      }, {
+        "product": "Viral Load",
+        "ID": "35",
+        "size": 3
+      }]
+    }, {
+      "cluster": "DIV",
+      "children": [{
+        "product": "PPR",
+        "ID": "36",
+        "size": 2
+      }]
+    }, {
+      "cluster": "GIS",
+      "children": [{
+        "product": "COP18 Maps",
+        "ID": "37",
+        "size": 16
+      }]
+    }, {
+      "cluster": "HSS",
+      "children": [{
+        "product": "Key Pops",
+        "ID": "38",
+        "size": 3
+      }]
+    }, {
+      "cluster": "Prevention",
+      "children": [{
+        "product": "OVC",
+        "ID": "39",
+        "size": 97
+      }, {
+        "product": "Prevention Reference",
+        "ID": "40",
+        "size": 1
+      }, {
+        "product": "Prevention Summary Dashboard",
+        "ID": "41",
+        "size": 16
+      }, {
+        "product": "Prevention Trends",
+        "ID": "42",
+        "size": 20
+      }]
+    }, {
+      "cluster": "Treatment",
+      "children": [{
+        "product": "TSD",
+        "ID": "43",
+        "size": 29
+      }]
+    }]
+  }]
+}
